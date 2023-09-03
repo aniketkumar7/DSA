@@ -31,3 +31,15 @@ int main()
         cout << endl;
     }
 }
+
+
+
+// Output:
+
+// Enter the number of rows: 6
+// * * * * * * 
+//  * * * * * 
+//   * * * * 
+//    * * * 
+//     * * 
+//      * 

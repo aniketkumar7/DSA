@@ -28,3 +28,23 @@ int main()
         cout << endl;
     }
 }
+
+
+// Output:
+
+// Enter the number of rows: 6
+// Half Pyramid: 
+// 1 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
+// 1 2 3 4 5 
+// 1 2 3 4 5 6 
+
+// Inverted Half Pyramid:
+// 1 2 3 4 5 6
+// 1 2 3 4 5
+// 1 2 3 4
+// 1 2 3
+// 1 2
+// 1

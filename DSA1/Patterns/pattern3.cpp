@@ -37,3 +37,15 @@ int main()
         cout << endl;
     }
 }
+
+
+
+
+// Output:
+
+// Enter the number of rows: 4
+// Enter the number of columns: 8
+// * * * * * * * * 
+// *             * 
+// *             * 
+// * * * * * * * * 
