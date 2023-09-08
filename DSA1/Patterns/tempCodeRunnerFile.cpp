@@ -1,1 +1,0 @@
-// Q4. Write a code to make Solid Diamond Pattern.
