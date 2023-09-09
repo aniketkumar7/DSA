@@ -12,13 +12,13 @@ int findMax(vector<int> &v) {
 }
 
 int calculateTotalHours(vector<int> &v, int hourly) {
-    int totalH = 0;
+    int totalHeight = 0;
     int n = v.size();
     //find total hours:
     for (int i = 0; i < n; i++) {
-        totalH += ceil((double)(v[i]) / (double)(hourly));
+        totalHeight += ceil((double)(v[i]) / (double)(hourly));
     }
-    return totalH;
+    return totalHeight;
 }
 
 int minimumRateToEatBananas(vector<int> v, int h) {
@@ -27,8 +27,8 @@ int minimumRateToEatBananas(vector<int> v, int h) {
     //apply binary search:
     while (low <= high) {
         int mid = (low + high) / 2;
-        int totalH = calculateTotalHours(v, mid);
-        if (totalH <= h) {
+        int totalHeight = calculateTotalHours(v, mid);
+        if (totalHeight <= h) {
             high = mid - 1;
         }
         else {
